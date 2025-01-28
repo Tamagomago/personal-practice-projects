@@ -1,0 +1,58 @@
+body {
+	background-color: rgb(231, 231, 231);
+	font-family: Arial, Helvetica, sans-serif;
+	cursor: default;
+}
+
+form {
+	background-color: #fff;
+	box-shadow: 5px 5px 15px;
+	text-align: center;
+	max-width: 350px;
+	border-radius: 5px;
+	padding: 10px;
+	margin: auto;
+}
+
+.main-form label {
+	margin: 10px 0;
+	display: block;
+	cursor: pointer;
+}
+
+.main-form input[type='radio'] {
+	cursor: pointer;
+}
+
+.main-header {
+	color: rgb(0, 153, 255);
+}
+
+#value {
+	text-align: center;
+	height: 30px;
+	font-size: 20px;
+	width: 200px;
+}
+
+#convert-btn {
+	background-color: #f15757;
+	border-radius: 5px;
+	border: none;
+	font-size: 20px;
+	color: #fff;
+	padding: 10px;
+	transition:
+		background-color 250ms,
+		box-shadow 250ms;
+	cursor: pointer;
+	box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.4);
+}
+
+#convert:hover {
+	background-color: #db0f0f;
+}
+
+#result {
+	font-size: 30px;
+}

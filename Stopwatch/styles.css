@@ -1,0 +1,78 @@
+body {
+	align-items: center;
+	background-color: hsla(0, 0%, 90%, 0.9);
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+}
+
+#stopwatch-container {
+	background-color: #fff;
+	border: 2px solid black;
+	border-radius: 10px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+	font-family: 'Lucida Console', Monaco, monospace;
+	margin-top: 20px;
+	padding: 20px;
+	width: 500px;
+}
+
+#stopwatch-header {
+	font-size: 50px;
+	font-weight: bold;
+	margin: 0;
+	text-align: center;
+}
+
+#stopwatch-clock-display {
+	color: #ae2222;
+	font-family: Monaco, monospace;
+	font-size: 60px;
+	padding: 10px 10px;
+	text-align: center;
+	width: 100%;
+}
+
+#stopwatch-buttons {
+	display: flex;
+	gap: 10px;
+	justify-content: center;
+	text-align: center;
+}
+
+#stopwatch-buttons button {
+	border: none;
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+	color: white;
+	cursor: pointer;
+	font-size: 20px;
+	height: auto;
+	padding: 10px;
+	width: 75px;
+}
+
+#start-btn {
+	background-color: #5bcf64;
+}
+
+#start-btn:hover {
+	background-color: #449e49;
+}
+
+#reset-btn {
+	background-color: #616bb6;
+}
+
+#reset-btn:hover {
+	background-color: #32408a;
+}
+
+#stop-btn {
+	background-color: #f14a4a;
+}
+
+#stop-btn:hover {
+	background-color: #ae2222;
+}

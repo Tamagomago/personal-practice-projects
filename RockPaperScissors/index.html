@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+			name="viewport"
+		/>
+		<meta content="ie=edge" http-equiv="X-UA-Compatible" />
+		<title>Rock Paper Scissors</title>
+		<link href="styles.css" rel="stylesheet" />
+	</head>
+	<body>
+		<div class="game-container">
+			<header class="game-header">
+				<h1 class="header-title">Rock-Paper-Scissors</h1>
+			</header>
+			<main class="game-main">
+				<div class="buttons-container">
+					<button class="game-button" id="rock-btn" value="rock">
+						✊
+					</button>
+					<button class="game-button" id="paper-btn" value="paper">
+						✋
+					</button>
+					<button
+						class="game-button"
+						id="scissors-btn"
+						value="scissors"
+					>
+						✌️
+					</button>
+				</div>
+				<div class="game-result">
+					<section class="choice-display-container">
+						<h2 class="choice-header" id="player-choice">PLAYER</h2>
+						<h2 class="choice-header" id="computer-choice">
+							COMPUTER
+						</h2>
+					</section>
+					<section class="result-container">
+						<h1 class="header-title" id="game-result">TEST</h1>
+					</section>
+					<section class="scores-container">
+						<h2 class="score-header" id="player-score">
+							Player Score: 0
+						</h2>
+						<h2 class="score-header" id="computer-score">
+							Computer Score: 0
+						</h2>
+					</section>
+				</div>
+			</main>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>

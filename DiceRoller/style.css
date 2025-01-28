@@ -1,0 +1,48 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #e4e2e2;
+}
+
+.dice-roller-section {
+	background-color: #fff;
+	text-align: center;
+	border-radius: 5px;
+	width: 400px;
+	height: auto;
+	margin: 30px auto;
+	box-shadow: 5px 5px 15px;
+	padding: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-header {
+	font-size: 45px;
+	color: rgb(245, 115, 115);
+}
+
+label[for='dice-rolls'] {
+	font-weight: bold;
+}
+
+#roll-btn {
+	font-weight: bold;
+	border: none;
+	padding: 3px 15px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+	background-color: #8ebdf3;
+	color: white;
+}
+
+#dice-images-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 15px;
+}
+
+#dice-images-container > img {
+	width: 100px;
+	height: 100px;
+}
